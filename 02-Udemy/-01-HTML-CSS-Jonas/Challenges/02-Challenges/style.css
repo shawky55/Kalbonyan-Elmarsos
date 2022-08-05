@@ -1,0 +1,44 @@
+p {
+  font-size: 1.2rem;
+}
+ul {
+  list-style: square;
+}
+ul li {
+  font-size: 1rem;
+  padding: 5px 0px;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: rgb(194, 193, 193);
+  color: #333;
+}
+article {
+  padding: 1rem 2rem;
+  max-width: 1200px;
+  border: #333 3px solid;
+  /* background-color: #22b8cf; */
+}
+a {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+button {
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  transition: all;
+  background-color: #333;
+}
+button:hover {
+  background-color: aliceblue;
+  color: #333;
+}

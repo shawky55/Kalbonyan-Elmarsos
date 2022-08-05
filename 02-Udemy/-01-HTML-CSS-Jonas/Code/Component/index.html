@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component section</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        gap: 1em 1em;
+        margin: 50px auto;
+        min-height: 50vh;
+        font-family: "Inter",sans-serif;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    .link:link,.link:visited{
+        padding: 1em 2em ;
+        font-weight: 700;
+        display: block;
+        background-color: #099268;
+        color: white;
+        font-size: 1.25rem;
+
+    }
+    .link:hover{
+        background-color: #38d9a9;
+        color: #e6fcf5;
+    }
+    img{
+        max-width: 100%;
+        display: block;
+    }
+    .component{
+        width: 300px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.381);
+    }
+</style>
+<body>
+
+    <div class="component">
+        <img src="./screenshot/Carousel.png" alt="">
+                <a class="link" href="./Carousel/index.html">Carousel</a>
+
+    </div>
+       <div class="component">
+           <img src="./screenshot/heroSectionpng.png" alt="">
+            <a class="link" href="./Hero-section/index.html">Hero Section</a>
+       </div>
+       <div class="component">
+           <img src="./screenshot/Accordion.png" alt="" srcset="">
+           <a class="link" href="./Accordion/index.html">Accordion</a>
+       </div>
+        
+     <div class="component">
+         <img src="./screenshot/gridSection.png" alt="" class="src">
+            <a class="link"href="./grid-section/index.html">grid section</a>
+     </div>
+     <div class="component">
+         <img src="./screenshot/page.png" alt="" class="src">
+                 <a class="link"href="./Pagination/index.html">Pagination</a>
+
+     </div>
+<div class="component">
+    <img src="./screenshot/table.png" alt="" class="src">
+         <a class="link" href="./Table/index.html">table</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+what  i learned from project 2
+
+-if i have more one button with same class i can add 
+eventlistenres to them using foreach method
+
+-make event listners through keyboard buttons
+-global event listerns 
+-keyprees or keydown 
+
+-what is node list 
